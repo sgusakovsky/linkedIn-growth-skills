@@ -3,6 +3,16 @@
 ## Required Inputs
 
 - LinkedIn profile URL:
+
+## Profile Preflight
+
+- If no profile is known, ask for the LinkedIn profile URL first.
+- If a profile is already known, ask whether the current task should use that profile.
+- If the user confirms, continue with the task.
+- If the user says no, ask for the correct LinkedIn profile URL and then collect only task-critical missing data.
+
+## Task Inputs
+
 - Industry:
 - Geography:
 - Primary language:

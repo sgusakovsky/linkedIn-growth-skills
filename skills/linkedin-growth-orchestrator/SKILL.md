@@ -18,10 +18,11 @@ When the user invokes only `$linkedin-growth-orchestrator`:
 1. Treat the request as a routing and aggregation task.
 2. Build a specialist pipeline from the user's intent and available evidence.
 3. Load the relevant peer skill instructions from `../<skill-name>/SKILL.md` when working inside this repository.
-4. Apply each selected specialist's output contract and guardrails.
-5. Resolve conflicts between specialists explicitly.
-6. Return one consolidated answer, not separate disconnected reports.
-7. If the request is broad, run a broad pipeline. If the request is narrow, route narrowly.
+4. Run profile preflight before specialist execution.
+5. Apply each selected specialist's output contract and guardrails.
+6. Resolve conflicts between specialists explicitly.
+7. Return one consolidated answer, not separate disconnected reports.
+8. If the request is broad, run a broad pipeline. If the request is narrow, route narrowly.
 
 Broad full-system pipeline:
 
@@ -40,8 +41,14 @@ Broad full-system pipeline:
 
 1. Identify the user's intent, goal, time horizon, and available evidence.
 2. Inspect shared context if available: profile, positioning, audience, goals, tone, analytics, SSI history, and memory records.
-3. If working inside this repository, load `../../core/orchestration/pipeline-map.md` and `../../core/memory/schema.md` for routing and historical-state rules.
-4. Choose a pipeline based on intent:
+3. If working inside this repository, load `../../core/orchestration/profile-preflight.md`, `../../core/orchestration/pipeline-map.md`, and `../../core/memory/schema.md` for profile confirmation, routing, and historical-state rules.
+4. Run profile preflight:
+   - If no LinkedIn profile is known, ask for the profile URL before running specialist skills.
+   - If a profile is already known, ask the user to confirm whether this task should use that profile.
+   - If the user confirms, continue.
+   - If the user says it is not the right profile, ask for the correct LinkedIn profile URL and task-critical missing data.
+   - If the current request includes a new profile that conflicts with stored context, ask whether to use it only for this task or replace the stored active profile.
+5. Choose a pipeline based on intent:
    - SSI improvement: profile audit, network growth, SSI optimizer, content strategy.
    - Profile rewrite: profile audit, positioning strategy, brand modeling.
    - Content plan: positioning strategy, content strategy, trend research when current topic evidence is needed.
@@ -49,10 +56,17 @@ Broad full-system pipeline:
    - Competitive review: competitor analysis, positioning strategy, brand modeling.
    - Performance review: analytics review, content strategy, SSI optimizer when SSI data exists.
    - Full-system growth review: profile audit, positioning strategy, brand modeling, content strategy, network growth, SSI optimizer, analytics review, and optional trend or competitor analysis when evidence is available.
-5. State which skills are selected and which are skipped.
-6. Pass only relevant context to each skill.
-7. Aggregate outputs into one coherent recommendation with conflicts called out.
-8. Preserve human review for profile edits, posts, comments, outreach, and strategic changes.
+6. State which skills are selected and which are skipped.
+7. Pass only relevant context to each skill.
+8. Aggregate outputs into one coherent recommendation with conflicts called out.
+9. Preserve human review for profile edits, posts, comments, outreach, and strategic changes.
+
+## Profile Confirmation Rules
+
+- Do not silently reuse stored profile data.
+- Do not ask for full onboarding when only the profile URL is missing.
+- Do not proceed with profile-specific recommendations until the active profile is clear.
+- If the agent cannot access LinkedIn profile content from the URL, ask the user for profile text, screenshots, or exported details.
 
 ## Required Output
 

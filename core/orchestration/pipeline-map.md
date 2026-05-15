@@ -6,6 +6,7 @@ Use this reference when a task spans more than one skill. Select the smallest pi
 
 - Start with user intent, not the list of available skills.
 - Treat `linkedin-growth-orchestrator` as the default entry point for broad or ambiguous requests.
+- Run profile preflight before specialist execution: if no profile is known, ask for the LinkedIn profile URL; if a profile is already known, ask the user to confirm it is the right profile for the current task.
 - Prefer existing shared context before asking for new input.
 - Ask only for missing evidence that materially changes the recommendation.
 - Do not run competitor, trend, analytics, or SSI work unless the user goal requires it.

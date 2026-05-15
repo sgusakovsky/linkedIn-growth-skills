@@ -146,9 +146,25 @@ The simplest workflow is:
 
 1. Install all skills.
 2. Start every broad request with `$linkedin-growth-orchestrator`.
-3. Give the orchestrator the available evidence: profile text, goals, audience, tone samples, analytics, SSI, competitors, or draft content.
-4. The orchestrator selects the specialist pipeline, reads the relevant shared context, and aggregates the result.
-5. The user reviews and approves any profile edits, posts, comments, or outreach.
+3. If no profile is known, the orchestrator asks for the LinkedIn profile URL first.
+4. If a profile is already known, the orchestrator asks whether the current task should use that profile.
+5. After the active profile is clear, give the orchestrator the available evidence: profile text, goals, audience, tone samples, analytics, SSI, competitors, or draft content.
+6. The orchestrator selects the specialist pipeline, reads the relevant shared context, and aggregates the result.
+7. The user reviews and approves any profile edits, posts, comments, or outreach.
+
+## Profile Preflight Behavior
+
+The orchestrator always resolves the active profile before profile-specific work:
+
+| Situation | Behavior |
+| --- | --- |
+| No known profile | Ask for the LinkedIn profile URL before running specialist skills. |
+| Known profile exists | Ask the user to confirm whether the task should use that profile. |
+| User confirms known profile | Continue with the selected specialist pipeline. |
+| User rejects known profile | Ask for the correct LinkedIn profile URL, then ask only for task-critical missing data. |
+| New profile URL conflicts with stored context | Ask whether to use the new profile only for this task or replace the active profile. |
+
+If LinkedIn content cannot be accessed from a URL alone, the orchestrator asks for profile text, screenshots, or exported details instead of inventing missing information.
 
 For example:
 
