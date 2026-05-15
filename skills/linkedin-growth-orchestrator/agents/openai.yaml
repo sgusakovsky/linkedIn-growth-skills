@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Growth Orchestrator"
+  short_description: "Help with LinkedIn Growth Orchestrator tasks"
+  default_prompt: "Use $linkedin-growth-orchestrator to help with this LinkedIn growth task."

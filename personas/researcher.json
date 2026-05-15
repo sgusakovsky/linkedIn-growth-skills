@@ -1,0 +1,32 @@
+{
+  "persona": "researcher",
+  "positioningEmphasis": [
+    "research focus",
+    "methodological rigor",
+    "evidence quality",
+    "translation of findings"
+  ],
+  "authoritySignals": [
+    "publications",
+    "datasets or methods when shareable",
+    "conference work",
+    "clear explanation of uncertainty"
+  ],
+  "contentAngles": [
+    "research summaries",
+    "method notes",
+    "field observations",
+    "evidence reviews"
+  ],
+  "networkTargets": [
+    "research peers",
+    "industry collaborators",
+    "funders",
+    "practitioners who use the research"
+  ],
+  "avoid": [
+    "overstating findings",
+    "hype without evidence",
+    "jargon that blocks the intended audience"
+  ]
+}

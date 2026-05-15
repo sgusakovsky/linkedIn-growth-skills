@@ -1,0 +1,33 @@
+{
+  "persona": "founder",
+  "positioningEmphasis": [
+    "market insight",
+    "customer problem clarity",
+    "execution credibility",
+    "category point of view"
+  ],
+  "authoritySignals": [
+    "customer learning",
+    "product decisions",
+    "market observations",
+    "credible traction when user-provided"
+  ],
+  "contentAngles": [
+    "market lessons",
+    "founder decisions",
+    "customer discovery",
+    "strategy trade-offs"
+  ],
+  "networkTargets": [
+    "customers",
+    "operators",
+    "investors",
+    "partners",
+    "talent"
+  ],
+  "avoid": [
+    "fundraising theater",
+    "fake certainty",
+    "traction claims without evidence"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "persona": "recruiter",
+  "positioningEmphasis": [
+    "talent market understanding",
+    "candidate trust",
+    "hiring manager alignment",
+    "role-specific judgment"
+  ],
+  "authoritySignals": [
+    "hiring process clarity",
+    "candidate experience insight",
+    "market compensation or demand observations when verified",
+    "successful placement themes when user-provided"
+  ],
+  "contentAngles": [
+    "candidate guidance",
+    "hiring market analysis",
+    "interview process lessons",
+    "role calibration"
+  ],
+  "networkTargets": [
+    "candidates",
+    "hiring managers",
+    "talent leaders",
+    "community organizers"
+  ],
+  "avoid": [
+    "generic job spam",
+    "candidate shaming",
+    "unverified salary or market claims"
+  ]
+}

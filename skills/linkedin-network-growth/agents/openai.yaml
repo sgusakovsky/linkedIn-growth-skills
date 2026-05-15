@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Network Growth"
+  short_description: "Help with LinkedIn Network Growth tasks"
+  default_prompt: "Use $linkedin-network-growth to help with this LinkedIn growth task."

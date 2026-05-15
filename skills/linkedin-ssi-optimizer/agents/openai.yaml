@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn SSI Optimizer"
+  short_description: "Help with LinkedIn SSI Optimizer tasks"
+  default_prompt: "Use $linkedin-ssi-optimizer to help with this LinkedIn growth task."

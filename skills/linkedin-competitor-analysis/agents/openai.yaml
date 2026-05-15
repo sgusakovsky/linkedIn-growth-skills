@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Competitor Analysis"
+  short_description: "Help with LinkedIn Competitor Analysis tasks"
+  default_prompt: "Use $linkedin-competitor-analysis to help with this LinkedIn growth task."

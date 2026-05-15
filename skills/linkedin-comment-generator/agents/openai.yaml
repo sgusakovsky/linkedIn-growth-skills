@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Comment Generator"
+  short_description: "Help with LinkedIn Comment Generator tasks"
+  default_prompt: "Use $linkedin-comment-generator to help with this LinkedIn growth task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Positioning Strategy"
+  short_description: "Help with LinkedIn Positioning Strategy tasks"
+  default_prompt: "Use $linkedin-positioning-strategy to help with this LinkedIn growth task."

@@ -1,0 +1,32 @@
+{
+  "persona": "engineer",
+  "positioningEmphasis": [
+    "technical depth",
+    "systems thinking",
+    "delivery judgment",
+    "trade-off reasoning"
+  ],
+  "authoritySignals": [
+    "architecture decisions",
+    "debugging stories",
+    "technical constraints explained clearly",
+    "open-source or public technical artifacts when available"
+  ],
+  "contentAngles": [
+    "technical deep dives",
+    "failure analysis",
+    "engineering trade-offs",
+    "lessons from implementation"
+  ],
+  "networkTargets": [
+    "engineering leaders",
+    "technical peers",
+    "product and platform stakeholders",
+    "recruiters relevant to the user's goals"
+  ],
+  "avoid": [
+    "generic builder identity",
+    "unproven expert claims",
+    "excessive jargon without audience purpose"
+  ]
+}

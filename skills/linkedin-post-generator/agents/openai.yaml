@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Post Generator"
+  short_description: "Help with LinkedIn Post Generator tasks"
+  default_prompt: "Use $linkedin-post-generator to help with this LinkedIn growth task."

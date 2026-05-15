@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Brand Modeling"
+  short_description: "Help with LinkedIn Brand Modeling tasks"
+  default_prompt: "Use $linkedin-brand-modeling to help with this LinkedIn growth task."

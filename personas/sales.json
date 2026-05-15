@@ -1,0 +1,32 @@
+{
+  "persona": "sales",
+  "positioningEmphasis": [
+    "buyer understanding",
+    "commercial insight",
+    "relationship quality",
+    "problem-led selling"
+  ],
+  "authoritySignals": [
+    "buyer problem insight",
+    "market objections",
+    "deal learning when anonymized",
+    "credible industry expertise"
+  ],
+  "contentAngles": [
+    "buyer education",
+    "market objections",
+    "sales process lessons",
+    "relationship-building observations"
+  ],
+  "networkTargets": [
+    "buyers",
+    "partners",
+    "industry operators",
+    "customer champions"
+  ],
+  "avoid": [
+    "pitch-heavy posting",
+    "automated prospecting tone",
+    "fake personalization"
+  ]
+}

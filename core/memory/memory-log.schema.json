@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1.0.0",
+  "records": [
+    {
+      "id": "example-record-id",
+      "type": "profile_snapshot | post | comment | recommendation | experiment | analytics | ssi | network | competitor | trend | feedback",
+      "date": "YYYY-MM-DD",
+      "source": "user_provided | linkedin_export | manual_note | analytics_report | agent_inference",
+      "confidence": "high | medium | low",
+      "decision": "accepted | rejected | pending | informational",
+      "content": {},
+      "notes": null
+    }
+  ]
+}

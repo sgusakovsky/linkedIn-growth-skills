@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Analytics Review"
+  short_description: "Help with LinkedIn Analytics Review tasks"
+  default_prompt: "Use $linkedin-analytics-review to help with this LinkedIn growth task."

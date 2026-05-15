@@ -1,0 +1,32 @@
+{
+  "persona": "consultant",
+  "positioningEmphasis": [
+    "problem diagnosis",
+    "business outcomes",
+    "method clarity",
+    "trusted advisory presence"
+  ],
+  "authoritySignals": [
+    "case patterns",
+    "decision frameworks",
+    "before-and-after examples when anonymized and approved",
+    "clear service boundaries"
+  ],
+  "contentAngles": [
+    "client problem patterns",
+    "frameworks",
+    "implementation lessons",
+    "mistakes to avoid"
+  ],
+  "networkTargets": [
+    "buyers",
+    "operators",
+    "partners",
+    "domain experts"
+  ],
+  "avoid": [
+    "vague transformation language",
+    "overpromising outcomes",
+    "case details that disclose private client information"
+  ]
+}

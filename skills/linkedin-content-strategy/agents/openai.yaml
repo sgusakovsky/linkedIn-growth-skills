@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Content Strategy"
+  short_description: "Help with LinkedIn Content Strategy tasks"
+  default_prompt: "Use $linkedin-content-strategy to help with this LinkedIn growth task."

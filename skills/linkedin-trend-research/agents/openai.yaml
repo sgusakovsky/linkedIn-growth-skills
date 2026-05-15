@@ -1,0 +1,4 @@
+interface:
+  display_name: "LinkedIn Trend Research"
+  short_description: "Help with LinkedIn Trend Research tasks"
+  default_prompt: "Use $linkedin-trend-research to help with this LinkedIn growth task."
